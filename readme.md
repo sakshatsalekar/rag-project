@@ -50,10 +50,10 @@ What is the role of admin?
 ## 📸 Screenshots
 
 ### Swagger UI
-![Swagger]("C:\Users\91836\Downloads\Swagger.png.png")
+![Swagger](images/swagger.png)
 
 ### Upload API
-![Upload]("C:\Users\91836\Downloads\upload.png.png")
+![Upload](images/upload.png)
 
 ### Search Result
-![Search]("C:\Users\91836\Downloads\search.png.png")
+![Search](images/search.png)
