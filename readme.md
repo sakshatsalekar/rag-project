@@ -1,21 +1,59 @@
-## How to Run
+# 🚀 RAG-Based Document Search System
 
-### Step 1: Clone Repo
-git clone https://github.com/sakshatsalekar/rag-project
+## 📌 Overview
+This project is an AI-powered document search system built using FastAPI and semantic search techniques. It allows users to upload PDF documents, process them into embeddings, and perform intelligent search using natural language queries.
 
-### Step 2: Go to folder
-cd rag-project
+---
 
-### Step 3: Install dependencies
+## 🔥 Features
+- 📄 Upload and process PDF documents
+- 🧠 Semantic search using embeddings
+- ⚡ Fast retrieval using FAISS
+- 🔐 JWT Authentication for secure APIs
+- 🚀 FastAPI backend
+
+---
+
+## 🛠 Tech Stack
+- Python
+- FastAPI
+- Sentence Transformers
+- FAISS
+- JWT Authentication
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## 🚀 How to Run
+
+```bash
 pip install -r requirements.txt
-
-### Step 4: Run server
 uvicorn main:app --reload
 
-### Step 5: Open in browser
+Open:
+
 http://127.0.0.1:8000/docs
 
-## Example Usage
+🔐 Authentication
+Call /auth/login
+Copy token
+Click Authorize
+Use: Bearer YOUR_TOKEN
 
-1. Upload a PDF using `/upload`
-2. Search using `/search?query=your_query`
+Example Query
+What is the role of admin?
+
+## 📸 Screenshots
+
+### Swagger UI
+![Swagger]("C:\Users\91836\Downloads\Swagger.png.png")
+
+### Upload API
+![Upload]("C:\Users\91836\Downloads\upload.png.png")
+
+### Search Result
+![Search]("C:\Users\91836\Downloads\search.png.png")
