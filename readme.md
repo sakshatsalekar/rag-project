@@ -47,13 +47,3 @@ Use: Bearer YOUR_TOKEN
 Example Query
 What is the role of admin?
 
-## 📸 Screenshots
-
-### Swagger UI
-![Swagger](images/swagger.png)
-
-### Upload API
-![Upload](images/upload.png)
-
-### Search Result
-![Search](images/search.png)
